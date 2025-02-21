@@ -1,0 +1,44 @@
+{
+  "name": "@resonance-run/extract-object-from-form-data",
+  "version": "0.0.1",
+  "description": "Turn form data into a JavaScript object, based on input names",
+  "keywords": [
+    "forms",
+    "react-router",
+    "remix"
+  ],
+  "license": "MIT",
+  "author": "Steven Foote <steven@resonance.run>",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "npx tsc --watch",
+    "build": "npx tsc -P tsconfig.build.json",
+    "prepack": "npm run build",
+    "test": "vitest run",
+    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "@vitest/coverage-v8": "^2.0.5",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.8.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jest": "^28.8.0",
+    "eslint-plugin-jest-dom": "^5.4.0",
+    "eslint-plugin-testing-library": "^6.2.2",
+    "happy-dom": "^15.11.6",
+    "prettier": "^3.3.2",
+    "vite-tsconfig-paths": "^5.0.0",
+    "vitest": "^2.0.5",
+    "vitest-tsconfig-paths": "^3.4.1"
+  }
+}
