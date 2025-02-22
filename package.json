@@ -1,6 +1,6 @@
 {
   "name": "extract-object-from-form-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Turn form data into a JavaScript object, based on input names",
   "keywords": [
     "forms",
@@ -12,6 +12,9 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "dev": "npx tsc --watch",
     "build": "npx tsc -P tsconfig.build.json",
