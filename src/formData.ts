@@ -12,7 +12,7 @@ export const extractObjectFromFormData = (formData: FormData, options?: { string
     if (formData.get(`${key}.unset`)) {
       val = '';
     }
-    // To manage checkboxes, the <Input type="checkbox" /> adds a hidden field with name={`${key}.isCheckbox`},
+    // To manage checkboxes, add a hidden field with name={`${key}.isCheckbox`},
     // that way we can turn checkbox values into booleans
     if (formData.get(`${key}.isCheckbox`)) {
       val = formData.get(key) === 'isChecked';

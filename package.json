@@ -1,5 +1,5 @@
 {
-  "name": "@resonance-run/extract-object-from-form-data",
+  "name": "extract-object-from-form-data",
   "version": "0.0.1",
   "description": "Turn form data into a JavaScript object, based on input names",
   "keywords": [
